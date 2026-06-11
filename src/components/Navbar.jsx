@@ -12,30 +12,42 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              to="/blood-avalebility"
+              to="/blood-availability"
               className="hover:text-red-600 transition"
             >
-              Blood Availebility
+              Blood Availability
             </Link>
           </li>
           <li>
             <Link
-              to="donation-program"
+              to="/donation-program"
               className="hover:text-red-600 transition"
             >
               Donation
-            </Link>{" "}
+            </Link>
           </li>
         </ul>{" "}
-        <div> <button> <Link to="/login" className="hover:text-red-600 border p-2 rounded-md transition">
-          LOGIN
-        </Link></button>
-        <button className=""> <Link to="/register" className="text-white rounded-md p-2  bg-red-600 m-5">
-          REGISTER
-        </Link></button></div>
-
-       
-       
+        <div>
+          {" "}
+          <button>
+            {" "}
+            <Link
+              to="/login"
+              className="hover:text-red-600 border p-2 rounded-md transition"
+            >
+              LOGIN
+            </Link>
+          </button>
+          <button className="">
+            {" "}
+            <Link
+              to="/register"
+              className="text-white rounded-md p-2  bg-red-600 m-5"
+            >
+              REGISTER
+            </Link>
+          </button>
+        </div>
       </div>
     </nav>
   );

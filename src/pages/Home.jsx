@@ -1,8 +1,8 @@
 const Home = () => {
   return (
     <>
-      <div className=" h-[calc(100vh-80px)] w-full bg-red-600">
-        <div className=" ml-10">
+      <div className=" h-[calc(100vh-80px)] w-full bg-red-600 flex">
+        <div className=" ml-10 ">
           <div
             className="w-75 rounded-3xl text-xl
             bg-liner-to-r from-red-500 to-red-600 
@@ -54,6 +54,9 @@ const Home = () => {
           </div>
         </div>
         {/* //there is two main div */}
+        <div>
+          <img src=" src\image\drop.png" alt="" />
+        </div>
       </div>
     </>
   );
